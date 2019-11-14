@@ -7,19 +7,18 @@
 
 .banner {
   width: 100%;
-  height: 100vh;
+  height: 100vh; /* can change any height here */
   background-color: #ccc;
   background: 
     linear-gradient(115deg, #7bf 50%, 
     transparent 50%) center center / 100% 100%, 
-    url("https://picsum.photos/id/684/600/400")
+    url("https://picsum.photos/1200/600?random=10")
     right center / auto 100%;
-
-
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
+  max-width: 960px;
   height: 100%;
   margin: auto;
 }
@@ -33,19 +32,24 @@
 }
 
 .banner-txt h1 {
-  font-size: 80px;
+  font-size: 60px;
   border-bottom: 1px solid #333;
+  font-weight: 900;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.3em;
 }
 
 .banner-txt h1 small {
   display: block;
-  font-size: 53px; 
+  font-size: 40px; 
+  font-weight: 700;
 }
 
 .banner-txt h2{
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .banner-txt p{
-  font-size: 30px;  
+  font-size: 20px;  
+  font-weight: 300;
 }
